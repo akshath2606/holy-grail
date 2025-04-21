@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-transform: uppercase;
+}
+
+.Header{
+    background-color: aqua;
+    text-align: center;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Main{
+    background-color: cornflowerblue;
+    text-align: center;
+    flex-grow: 5;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.footer{
+    background-color: coral;
+    text-align: center;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Aside{
+    background-color: lightgreen;
+    text-align: center;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    flex-direction: row;
+    display: flex;
+    flex-grow: 4;
+}
+
+.pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
